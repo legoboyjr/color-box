@@ -1,0 +1,39 @@
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.App-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App-footer p {
+  color: rgb(114, 111, 111);
+}
+.App-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid black;
+  margin: 1rem;
+}
+.color-selector {
+  border: none;
+  width: 15rem;
+}
+.title {
+  font-family: Helvetica, sans-serif;
+}

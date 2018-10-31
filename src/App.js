@@ -4,7 +4,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App-container">
         <header className="App-header">
           <h1 className="title">Color Box</h1>
         </header>
